@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	background: #0c9225;
+	background: url("background.jpg") #000000 center fixed;
+	background-size: cover;
 }
 
 #page {
@@ -22,8 +23,8 @@ body {
 	padding: 40px;
 	box-sizing: border-box;
 	display: inline-block;
-	font-size: 16px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
 	color: #171717;
 	text-align: left;
 	vertical-align: top;
@@ -31,24 +32,31 @@ body {
 
 .back .block {
 	vertical-align: middle;
+	font-family: "Quicksand", Arial, Helvetica, sans-serif;
 	color: #fdfdfd;
 	font-size: 64px;
 }
 
-.back a {
-	color: rgba(253, 253, 253, 0.6);
-	font-size: 32px;
-	text-decoration: none;
+#header-links {
+	font-size: 0;
 	display: inline-block;
-	margin-right: 20px;
 }
 
-.back a:hover {
+#header-links a {
+	color: rgba(253, 253, 253, 0.6);
+	font-size: 28px;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#header-links a:hover {
 	color: rgba(253, 253, 253, 0.8);
 }
 
-#header-links {
-	font-size: 0;
+#header-desc {
+	color: rgba(253, 253, 253, 0.8);
+	font-size: 32px;
 }
 
 .big {
@@ -58,4 +66,34 @@ body {
 
 .small {
 	width: 320px;
+}
+
+.icon {
+	margin: 10px;
+	background: #fafafa;
+	border: 2px solid #ececec;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 22px;
+	text-align: center;
+	cursor: pointer;
+	color: #414141;
+}
+
+.icon div {
+	width: 180px;
+	height: 180px;
+	margin: 20px;
+	overflow: hidden;
+	transition: height 0.4s;
+}
+
+.icon:hover div {
+	height: calc(180px + 1em + 10px);
+}
+
+.icon img {
+	width: 180px;
+	display: block;
+	margin-bottom: 10px;
 }
