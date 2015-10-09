@@ -27,7 +27,17 @@ splashes = [
 	"pizza is good",
 	"error 404, splash not found",
 	"likes to fly away",
-	"no u"
+	"no u",
+	"ate your face",
+	"actually never had an apple stick",
+	"the b is capital",
+	"spoony",
+	"tell me about this \"fixing\" thing",
+	"what is life",
+	"bahstep",
+	"is secretly creator cat",
+	"math.floor(math.round(math.floor(math.round())))",
+	"can't firefox"
 ];
 
 num = Math.floor(Math.random() * splashes.length);
